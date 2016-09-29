@@ -1,6 +1,7 @@
-Python Web框架表单验证
+Python Web框架表单验证组件 - Tyrion
 =======================
 
+基于Python实现对Web框架的表单验证，并支持Python众多Web框架，如：Tornado、Django、Flask、Bottle
 A sample project that exists as an aid to the `Python Packaging User Guide
 <https://packaging.python.org>`_'s `Tutorial on Packaging and Distributing
 Projects <https://packaging.python.org/en/latest/distributing.html>`_.
