@@ -3,7 +3,6 @@
 
 
 class FrameworkFactory(object):
-    '''wu pei qi is a fucking stupid loser'''
     __framework = None
 
     @staticmethod
