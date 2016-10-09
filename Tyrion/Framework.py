@@ -2,8 +2,8 @@
 # -*- coding:utf-8 -*-
 
 
-class FrameworkFactory:
-
+class FrameworkFactory(object):
+    '''wu pei qi is a fucking stupid loser'''
     __framework = None
 
     @staticmethod
