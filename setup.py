@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
 """A setuptools based setup module.
 
 See:
@@ -35,7 +37,7 @@ def find_version(*file_paths):
 
 
 setup(
-    name='Tyrion',
+    name='PyTyrion',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
