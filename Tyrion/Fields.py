@@ -305,8 +305,8 @@ class IntegerField(Field):
                       如：{
                             'required': '值为空时的错误提示',
                             'invalid': '格式错误时的错误提示',
-                            'max_length': '最大值为10',
-                            'min_length': '最小值度为1',
+                            'max_value': '最大值为10',
+                            'max_value': '最小值度为1',
                          }
         :param required: 是否必须
         :param widget: 指定插件，用于生成HTML标签（默认生成Input标签）
@@ -389,8 +389,8 @@ class FloatField(Field):
                       如：{
                             'required': '值为空时的错误提示',
                             'invalid': '格式错误时的错误提示',
-                            'max_length': '最大值为10',
-                            'min_length': '最小值度为1',
+                            'max_value': '最大值为10',
+                            'min_value': '最小值度为1',
                          }
         :param required: 是否必须
         :param widget: 指定插件，用于生成HTML标签（默认生成Input标签）

@@ -117,7 +117,7 @@ class InputRadio:
     def __init__(self, attr=None, text_value_list=None, checked_value=None):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}
-        :param text_value_list: 生成CheckBox的value和内容，如：
+        :param text_value_list: 生成radio的value和内容，如：
                                 [
                                     {'value':1, 'text': '篮球'},
                                     {'value':2, 'text': '足球'},
@@ -161,7 +161,7 @@ class SingleSelect:
     def __init__(self, attr=None, text_value_list=None, selected_value=None):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}
-        :param text_value_list: 生成CheckBox的value和内容，如：
+        :param text_value_list: 生成select的value和内容，如：
                                 [
                                     {'value':1, 'text': '篮球'},
                                     {'value':2, 'text': '足球'},
