@@ -2,8 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-class FrameworkFactory:
-
+class FrameworkFactory(object):
     __framework = None
 
     @staticmethod
