@@ -16,9 +16,10 @@ Tyrion主要有两大重要动能：
 
 下载安装
 :::::::::
-
 ::
+
  pip install PyTyrion
 
-
-中文文档：http://www.cnblogs.com/wupeiqi/p/5938916.html
+中文文档
+:::::::::
+ http://www.cnblogs.com/wupeiqi/p/5938916.html
