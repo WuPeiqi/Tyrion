@@ -14,4 +14,11 @@ Tyrion主要有两大重要动能：
 对于生成HTML标签，不在人工书写html标签，让Tyrion帮你自动创建...
 对于保留上次提交内容，由于默认表单提交后页面刷新，原来输入的内容会清空，Tyrion可以保留上次提交内容。
 
+下载安装
+:::::::::
+
+::
+ pip install PyTyrion
+
+
 中文文档：http://www.cnblogs.com/wupeiqi/p/5938916.html
