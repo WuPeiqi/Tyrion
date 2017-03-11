@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-class Input:
+class Input(object):
     def __init__(self, attr=None):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}
@@ -69,7 +69,7 @@ class InputSingleCheckBox(Input):
         return tag
 
 
-class InputMultiCheckBox:
+class InputMultiCheckBox(object):
     def __init__(self, attr=None, text_value_list=None, checked_value_list=None):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}
@@ -113,7 +113,7 @@ class InputMultiCheckBox:
         return ''.join(tag_list)
 
 
-class InputRadio:
+class InputRadio(object):
     def __init__(self, attr=None, text_value_list=None, checked_value=None):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}
@@ -157,7 +157,7 @@ class InputRadio:
         return ''.join(tag_list)
 
 
-class SingleSelect:
+class SingleSelect(object):
     def __init__(self, attr=None, text_value_list=None, selected_value=None):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}
@@ -208,7 +208,7 @@ class SingleSelect:
         return tag
 
 
-class MultiSelect:
+class MultiSelect(object):
     def __init__(self, attr=None, text_value_list=None, selected_value_list=None):
         """
         :param attr: 生成的Select标签的属性，如：{'id': '123'}
@@ -256,7 +256,7 @@ class MultiSelect:
         return tag
 
 
-class TextArea:
+class TextArea(object):
     def __init__(self, attr=None, value=""):
         """
         :param attr: 生成的HTML属性，如：{'id': '123'}

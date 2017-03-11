@@ -1,6 +1,7 @@
 MANIFEST.in
 README.rst
 setup.py
+PyTyrion.egg-info/.DS_Store
 PyTyrion.egg-info/PKG-INFO
 PyTyrion.egg-info/SOURCES.txt
 PyTyrion.egg-info/dependency_links.txt

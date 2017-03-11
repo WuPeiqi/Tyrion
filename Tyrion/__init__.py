@@ -7,7 +7,7 @@ from Tyrion.Framework import Bottle
 from Tyrion.Framework import Flask
 
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 def setup(framework='tornado'):
     """

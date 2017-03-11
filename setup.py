@@ -24,7 +24,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 def read(*parts):
     # intentionally *not* adding an encoding option to open, See:
     # https://github.com/pypa/virtualenv/issues/201#issuecomment-3145690
-    return open(path.join(here, *parts), 'r').read()
+    return open(path.join(here, *parts), mode='r',encoding='utf-8').read()
 
 
 def find_version(*file_paths):

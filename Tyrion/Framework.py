@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 
 
-class FrameworkFactory:
+class FrameworkFactory(object):
 
     __framework = None
 
@@ -15,7 +15,7 @@ class FrameworkFactory:
         return FrameworkFactory.__framework
 
 
-class BaseFramework:
+class BaseFramework(object):
     def get_argument(self, request, name, default=None):
         raise NotImplementedError('class %s must implement get_argument method' % self.__class__)
 

@@ -4,7 +4,7 @@ import copy
 from Tyrion.Fields import Field
 
 
-class Form:
+class Form(object):
     def __init__(self, handler=None):
         """
 

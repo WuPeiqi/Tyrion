@@ -5,7 +5,7 @@ from Tyrion import Widget
 from Tyrion.Framework import FrameworkFactory
 
 
-class Field:
+class Field(object):
     """
     所有Form字段的基类
     """
