@@ -3,7 +3,6 @@
 
 
 class FrameworkFactory(object):
-
     __framework = None
 
     @staticmethod
